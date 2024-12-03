@@ -74,6 +74,8 @@ int main(int argc, char *argv[]) {
       safeReports2++;
   }
 
+  f.close();
+
   std::cout << safeReports << std::endl;
   std::cout << safeReports2 << std::endl;
 
